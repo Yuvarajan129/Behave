@@ -1,0 +1,45 @@
+Python Behave API automation project.
+
+folder structure:
+
+behave-api-automation/
+│
+├── features/
+│   ├── api_testing.feature
+│   └── steps/
+│       └── api_steps.py
+│
+├── requirements.txt
+└── README.md
+
+
+steps:
+
+requirements.txt
+	behave
+	requests
+cd > to the folder
+create the virtual env
+	python -m venv myenv
+	source myenv/Scripts/activate  
+to deactivate the env
+	deactivate
+pip install -r requirements.txt
+To check if the packages/requirements are installed >>> pip list  /   pip freeze
+
+
+
+…or create a new repository on the command line
+echo "# Behave" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Yuvarajan129/Behave.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Yuvarajan129/Behave.git
+git branch -M main
+git push -u origin main
